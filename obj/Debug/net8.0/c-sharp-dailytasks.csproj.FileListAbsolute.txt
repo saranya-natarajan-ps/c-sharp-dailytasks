@@ -1,0 +1,15 @@
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\bin\Debug\net8.0\c-sharp-dailytasks.exe
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\bin\Debug\net8.0\c-sharp-dailytasks.deps.json
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\bin\Debug\net8.0\c-sharp-dailytasks.runtimeconfig.json
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\bin\Debug\net8.0\c-sharp-dailytasks.dll
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\bin\Debug\net8.0\c-sharp-dailytasks.pdb
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.GeneratedMSBuildEditorConfig.editorconfig
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.AssemblyInfoInputs.cache
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.AssemblyInfo.cs
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.csproj.CoreCompileInputs.cache
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.sourcelink.json
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.dll
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\refint\c-sharp-dailytasks.dll
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.pdb
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\c-sharp-dailytasks.genruntimeconfig.cache
+d:\Users\saranya\Desktop\Academy\c-sharp-dailytasks\obj\Debug\net8.0\ref\c-sharp-dailytasks.dll
