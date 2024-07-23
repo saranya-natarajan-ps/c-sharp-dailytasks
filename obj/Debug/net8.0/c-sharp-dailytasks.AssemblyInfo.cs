@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("c-sharp-dailytasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82e72e2b1b75ea089599643273d64c3078d8c063")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76e40311f34bc5b884edfbd9f53bb0f673a6cba4")]
 [assembly: System.Reflection.AssemblyProductAttribute("c-sharp-dailytasks")]
 [assembly: System.Reflection.AssemblyTitleAttribute("c-sharp-dailytasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
