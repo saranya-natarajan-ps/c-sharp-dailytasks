@@ -1,0 +1,65 @@
+using System;
+
+namespace Delegate_Math
+{
+    // Define a delegate type that can reference any method with two double parameters and a double return type
+    delegate double MathOperation(double a, double b);
+
+    class BasicMath
+    {
+        // Method to add two numbers
+        public double Add(double a, double b)
+        {
+            return a + b;
+        }
+
+        // Method to subtract two numbers
+        public double Subtract(double a, double b)
+        {
+            return a - b;
+        }
+
+        // Method to multiply two numbers
+        public double Multiply(double a, double b)
+        {
+            return a * b;
+        }
+
+        // Method to divide two numbers
+        public double Divide(double a, double b)
+        {
+            return a / b;
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            BasicMath math = new BasicMath();
+
+            // Create delegate instances and use them to call the math methods
+            MathOperation mathOp;
+
+            // Add operation
+            mathOp = new MathOperation(math.Add);
+            double addResult = mathOp(10, 5);
+            Console.WriteLine("Add: 10 + 5 = " + addResult);
+
+            // Subtract operation
+            mathOp = new MathOperation(math.Subtract);
+            double subtractResult = mathOp(10, 5);
+            Console.WriteLine("Subtract: 10 - 5 = " + subtractResult);
+
+            // Multiply operation
+            mathOp = new MathOperation(math.Multiply);
+            double multiplyResult = mathOp(10, 5);
+            Console.WriteLine("Multiply: 10 * 5 = " + multiplyResult);
+
+            // Divide operation
+            mathOp = new MathOperation(math.Divide);
+            double divideResult = mathOp(10, 5);
+            Console.WriteLine("Divide: 10 / 5 = " + divideResult);
+        }
+    }
+}

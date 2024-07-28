@@ -1,0 +1,21 @@
+USE demo;
+SELECT * FROM Categories;
+
+SELECT CategoryID, CategoryName FROM Categories ORDER BY CategoryID;
+
+
+SELECT ProductID, ProductName, UnitPrice FROM Products;
+
+SELECT ProductID, ProductName, UnitPrice FROM Products WHERE UnitPrice < 10;
+
+SELECT p.ProductID, p.ProductName, p.UnitPrice, c.CategoryName 
+FROM Products p
+JOIN Categories c ON p.CategoryID = c.CategoryID;
+
+
+
+SELECT p.ProductID, p.ProductName, p.UnitPrice, c.CategoryName, s.CompanyName AS SupplierName
+FROM Products p
+JOIN Categories c ON p.CategoryID = c.CategoryID
+JOIN Suppliers s ON p.SupplierID = s.SupplierID
+WHERE p.UnitPrice BETWEEN 5 AND 20;
